@@ -1,7 +1,7 @@
-"use strict"
-// alert(3 + 3) we are using Node.js not browser thats why it will throw error 
+"use strict";
+// alert(3 + 3) we are using Node.js not browser thats why it will throw error
 
-const name ="mobi";
+const name = "mobi";
 const age = 54;
 const alive = true;
 
