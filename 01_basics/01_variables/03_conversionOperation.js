@@ -67,11 +67,32 @@
 // // value = 1
 // console.log(+"");
 
-let x = 3;
-let y = x++;
-let z = ++x;
-console.log(x, z);
+// with number
+// let x = 5;
+// let y = x++;
+
+// with string
+// let x = "5";
+// let y = ++x;
+
+// let x = "5";
+// let y = ++x;
+// let z = y++;
+// let a = x++;
+// so here first x is changing its value from 5 to 6 then 6 to 7,
+// y is changing to 6 because we use prefix
+// then the z value is getting assigned from the second process where we incrementing the x value using prefix so its like z = y
+
+console.log(x, y, z, a);
+
+// note
+
+// if we apply post fix or prefix operator on string it will automatically convert it into numbers and then do the further operations
 
 // If used postfix, with operator after operand (for example, x++), the increment operator increments and returns the value before incrementing.
 
 // If used prefix, with operator before operand (for example, ++x), the increment operator increments and returns the value after incrementing.
+
+// in postfix increament (x++), y = x++ the assigning operation done first and then the increment happen
+
+// in prefix increament y = ++x first the increament operation done and return increamented value and then the assigning process done.
