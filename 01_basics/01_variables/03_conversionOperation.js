@@ -10,8 +10,6 @@
 
 // console.log(nameNum,typeof(nameNum));
 
-
-
 // let secondScore = Number(fore)
 // let thirdScore = Number(goal)
 // let forthScore = Number(sole)
@@ -25,17 +23,14 @@
 // console.log(typeof(fifthScore),fifthScore);
 // console.log(typeof(sixthScore),sixthScore);
 
-
-// Notes 
+// Notes
 // true  = 1
 // false = 0
 // "33" => 33
-// "33abc" => number value = Nan 
+// "33abc" => number value = Nan
 // null => number value = 0
 // undefined => number value = NaN
 // "mobi" => number value = Nan
-
-
 
 // codes
 // let isLoggedIn = true
@@ -50,8 +45,33 @@
 // "" => false boolean-type
 // "mobi" => true boolean-type
 
+// let someNumber = 33;
+// let StringNumber = String(someNumber)
 
-let someNumber = 33;
-let StringNumber = String(someNumber)
+// console.log(StringNumber,typeof(StringNumber));
 
-console.log(StringNumber,typeof(StringNumber));
+//  xxxxxxxxxxx Operations xxxxxxxxxxxx
+
+// let value1 = 3
+// let negValue = -value1;
+// console.log(negValue)
+
+// let str1 = "mobi";
+// let str2 = " khan";
+// console.log(str1 + str2);
+// console.log("str1" + 1);
+// console.log("1" + 2 + 2);
+// console.log(1 + 2 + "2");
+
+// console.log(+true);
+// // value = 1
+// console.log(+"");
+
+let x = 3;
+let y = x++;
+let z = ++x;
+console.log(x, z);
+
+// If used postfix, with operator after operand (for example, x++), the increment operator increments and returns the value before incrementing.
+
+// If used prefix, with operator before operand (for example, ++x), the increment operator increments and returns the value after incrementing.
